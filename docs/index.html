@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>医療ボランティア推薦デモ</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+<h1>医療機関に合う医療ボランティアの推薦</h1>
+<p>表示している推薦順位・適合度・理由は、AI（大規模言語モデル）で事前に生成した結果です。実運用ではAPIで都度生成します。人物・施設はすべて架空です。</p>
+</header>
+<main>
+<section class="panel"><h2>医療機関を選ぶ</h2><div class="chips" id="facility-buttons"></div><p class="note" id="facility-info"></p></section>
+<section class="panel"><h2>プランを選ぶ</h2><div class="chips" id="plan-buttons"></div><p class="note" id="summary"></p></section>
+<ol id="results"></ol>
+<p id="locked"></p>
+<section class="panel"><h2 id="excluded-title"></h2><ul id="excluded"></ul></section>
+</main>
+<script src="data.js"></script>
+<script src="match.js"></script>
+<script src="app.js"></script>
+</body>
+</html>

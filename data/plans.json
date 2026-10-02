@@ -1,0 +1,5 @@
+[
+  {"id":"free","label":"無料プラン","limit":5},
+  {"id":"standard","label":"有料プラン（20件）","limit":20},
+  {"id":"premium","label":"有料プラン（50件）","limit":50}
+]

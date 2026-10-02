@@ -1,0 +1,23 @@
+*{box-sizing:border-box}
+body{margin:0;font-family:system-ui,"Hiragino Sans","Yu Gothic",sans-serif;background:#f4f7f9;color:#1f2d3a;line-height:1.7}
+header{background:#0f6b78;color:#fff;padding:20px 16px}
+header h1{margin:0;font-size:1.3rem}
+header p{margin:6px 0 0;font-size:.9rem;max-width:60em}
+main{max-width:860px;margin:0 auto;padding:16px}
+.panel{background:#fff;border-radius:8px;padding:14px 16px;margin-bottom:14px;box-shadow:0 1px 3px rgba(0,0,0,.08)}
+.panel h2{font-size:1rem;margin:0 0 8px}
+.chips{display:flex;flex-wrap:wrap;gap:8px}
+.chip{border:1px solid #0f6b78;background:#fff;color:#0f6b78;border-radius:999px;padding:6px 14px;font-size:.9rem;cursor:pointer}
+.chip[aria-pressed="true"]{background:#0f6b78;color:#fff}
+.note{font-size:.85rem;color:#4a5b68;margin:8px 0 0}
+ol#results{list-style:none;margin:0;padding:0;display:grid;gap:10px}
+.card{background:#fff;border-radius:8px;padding:12px 14px;box-shadow:0 1px 3px rgba(0,0,0,.08)}
+.card-head{display:flex;flex-wrap:wrap;align-items:baseline;gap:4px 10px}
+.rank{background:#0f6b78;color:#fff;border-radius:4px;padding:0 8px;font-size:.85rem}
+.score{margin-left:auto;font-size:.85rem;color:#0f6b78;font-weight:bold}
+.meta{margin:2px 0 6px;font-size:.85rem;color:#4a5b68}
+.ok,.ng{margin:2px 0;font-size:.9rem}
+.ok b{color:#1b7f4b}.ng b{color:#b5472b}
+#locked{background:#fff7e0;border:1px dashed #d9a400;border-radius:8px;padding:10px 14px;margin:12px 0;font-size:.9rem}
+#excluded{padding-left:1.2em;font-size:.85rem;color:#4a5b68;margin:0}
+@media (max-width:520px){header h1{font-size:1.1rem}.score{margin-left:0}}
