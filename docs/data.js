@@ -264,7 +264,7 @@ window.POC_DATA = {
  "facilities": [
   {
    "id": "fa",
-   "name": "あおぞら在宅クリニック",
+   "name": "サンプル在宅クリニックA（架空）",
    "summary": "在宅医療を行う小規模クリニック",
    "needs": {
     "roles": [
@@ -291,7 +291,7 @@ window.POC_DATA = {
   },
   {
    "id": "fb",
-   "name": "みなと小児科センター",
+   "name": "サンプル小児科B（架空）",
    "summary": "週末診療に力を入れる小児科",
    "needs": {
     "roles": [
